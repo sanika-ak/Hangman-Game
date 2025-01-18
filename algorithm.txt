@@ -1,0 +1,24 @@
+1. Import necessary libraries.
+2. Code the Hangman graphics
+3. Create the word list.
+4. Define the hangman() function:
+        Select a random word from WORD_LIST.
+        Initialize guessed_word as a list of underscores (_), one for each letter in the word.
+        Set the number of attempts to the total number of hangman stages minus one.
+        Initialize an empty set guessed_letters to track guessed letters.
+        Print the welcome message and display the initial hangman graphic.
+5. Enter the game loop:
+        Prompt the user for a letter input.
+        Validate the input:
+           - Check if it’s a single letter and hasn’t been guessed before.
+           - If valid, add it to guessed_letters.
+        Check if the guess is correct:
+           - If correct, update guessed_word by replacing the underscores with the correct letter.
+           - If incorrect, decrement the number of attempts and update the hangman graphic.
+           - Display the current guessed word and the remaining attempts.
+6. Check for a win:
+        If the word is completely guessed (no underscores left), print a success message.
+7. Check for a loss:
+        If the number of attempts reaches zero, print a failure message and reveal the word.
+        End the game.
+8. Run the game if the script is executed directly by calling hangman().

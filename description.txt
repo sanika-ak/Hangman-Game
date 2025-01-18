@@ -1,0 +1,27 @@
+This Python program implements the classic Hangman game, where players guess letters to complete a hidden word before running out of attempts. It is fun to code and play at the smae time. The Hangman game is a classic word-guessing challenge brought to life with a programming twist. Players attempt to guess a hidden word, one letter at a time, while visualizing their progress through a series of hangman graphics. With a word list featuring programming-related terms, the game tests not only vocabulary but also strategic thinking. Each correct guess reveals parts of the word, while incorrect guesses progress the hangman figure and reduce available attempts. The game ensures a smooth and engaging experience by validating inputs, tracking guessed letters, and providing real-time feedback. Whether players successfully guess the word or exhaust their attempts, the game concludes with a clear outcome, offering a fun and interactive way to explore Python programming fundamentals.
+
+Key Features:
+ --> Hangman Graphics: The HANGMAN_PICS list contains ASCII art representing the various stages of the hangman, progressing with each incorrect guess.
+ --> Word List: A comprehensive WORD_LIST of programming-related terms serves as the source of the random word players attempt to guess.
+
+Game Logic:
+            Players are prompted to guess one letter at a time. The program validates inputs to ensure only single alphabetic characters are accepted. Guessed letters are tracked to avoid repetitions. The guessed word is displayed with correctly guessed letters revealed and unknown letters as underscores (_).
+
+Feedback:
+          Correct guesses reveal corresponding letters in the word. Incorrect guesses reduce the number of attempts and update the hangman graphics. Messages inform players of their progress, remaining attempts, and any invalid or repeated inputs.
+
+Winning and Losing Conditions:
+                 The game ends successfully when the player guesses the entire word. The game ends unsuccessfully when the player runs out of attempts, revealing the correct word. The game interacts with the player through the console, making it engaging and straightforward.
+
+How to Play:
+ 1. Run the script.
+ 2. Follow prompts to guess one letter at a time.
+ 3. Avoid repeating guesses or making invalid inputs.
+ 4. Aim to complete the word before the hangman is fully drawn.
+ 
+
+
+
+
+
+
